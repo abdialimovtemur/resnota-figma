@@ -1,0 +1,32 @@
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+    .header_left{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        p{
+            width: 160px;
+            color: #0E2149;
+        }
+    }
+
+    .header_right{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        .price{
+            font-weight: bold;
+        }
+
+        .imgs{
+            display: flex;
+            align-items: center;
+            width: 82px;
+            gap: 20px;
+        }
+    }
+}
