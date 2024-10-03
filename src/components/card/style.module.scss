@@ -1,0 +1,71 @@
+.conatainer{
+  width: 90%;
+  margin: 0px auto;
+}
+.card-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 200px;
+  }
+  
+  /* Category-based background colors */
+  .kolbasa {
+    background-color: #f2915b;
+  }
+  
+  .molochniye {
+    background-color: #b0c94e;
+  }
+  
+  .moreprodukty {
+    background-color: #7ac8a2;
+  }
+  
+  .pivo {
+    background-color: #f2a65b;
+  }
+  
+  .zamorozhennye {
+    background-color: #6db9c5;
+  }
+  
+  .med {
+    background-color: #d38a5a;
+  }
+  
+  .ovozi {
+    background-color: #b187bb;
+  }
+  
+  .frukti {
+    background-color: #f78f52;
+  }
+  
+  /* Typography styling */
+  .category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .category-desc {
+    font-size: 16px;
+  }
+  
+  /* Image styling */
+  .img-wrapper {
+    width: 80px;
+    height: auto;
+  }
+  
